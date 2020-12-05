@@ -121,5 +121,6 @@ with open(output_file, 'w', newline="") as file:
     file.write(f"Li- {li_percent}% : {votes_for_li}")
     file.write(f"\n")
     file.write(f"O'Tooley - {otooley_percent}% : {votes_for_otooley}")
+    file.write(f"Winner- {winner}")
 
 
